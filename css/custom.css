@@ -1,6 +1,7 @@
 body{
 	font-size: 14px;
 }
+
 header{
 	background-image:url(../img/header-background.jpg);
 }
@@ -17,6 +18,21 @@ header .intro-text .intro-lead-in{
 	margin-top: 0px;
 	margin-bottom: 30px;
 }
+.navbar-default.navbar-shrink{
+	background-color: #222;
+	border-bottom: 2px ridge #C3C3C3;
+}
+.navbar-brand{
+	padding: 5px 0px 0px 15px;
+}
+.navbar-brand img{
+	width: 50px;
+}
+
+section{
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
 section h2.section-heading{
 	font-family: Russo One, Helvetica, sans-serif;
 	color: #333;
@@ -29,22 +45,6 @@ section h3.section-subheading{
 	font-style: normal;
 	margin-bottom: 30px;
 }
-
-.profile-picture{
-	border-radius: 50%;
-	border: 5px solid #F3F3F3;
-	margin: 0 auto;
-	margin-bottom: 30px;
-	max-width: 300px;
-}
-
-.reading-text{
-	font-size: 1.2em;
-	font-style: normal;
-	color: #666;
-	font-family: Open Sans, Helvetica, sans-serif;
-	font-weight: 400;
-}
 h4{
 	font-family: Montserrat, Helvetica, sans-serif;
 	font-size: 1.4em;
@@ -55,20 +55,19 @@ h5{
 	font-size: 1.2em;
 	font-weight: 400;
 }
-.navbar-default.navbar-shrink{
-	background-color: #222;
-	border-bottom: 2px ridge #C3C3C3;
+.profile-picture{
+	border-radius: 50%;
+	border: 5px solid #F3F3F3;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	max-width: 300px;
 }
-.navbar-default .navbar-brand{
-	font-family: Montserrat, Helvetica, sans-serif;
-	font-size: 1.5em;
-	font-weight: 600;
-	color: #fed136;
-	text-transform: uppercase;
-}
-section{
-	padding-top: 75px;
-	padding-bottom: 75px;
+.reading-text{
+	font-size: 1.2em;
+	font-style: normal;
+	color: #666;
+	font-family: Open Sans, Helvetica, sans-serif;
+	font-weight: 400;
 }
 #services{
 	background-color: #F3F3F3;
@@ -76,10 +75,11 @@ section{
 #portfolio{
 	background-color: #FFF;
 }
-section#contact .section-heading{
-	color: #f3f3f3;
+.portfolio-item img{
+	border-radius: 5px;
+	border: 5px solid #F3F3F3;
 }
-section#contact .section-subheading{
+#contact .section-subheading{
 	color: #ccc;
 }
 
