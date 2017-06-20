@@ -1,0 +1,85 @@
+body{
+	font-size: 14px;
+}
+header{
+	background-image:url(../img/header-background.jpg);
+}
+header .intro-text .intro-heading{
+	font-family: Russo One, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	color: #333;
+	margin-bottom: 0px;
+}
+header .intro-text .intro-lead-in{
+	font-family: Comfortaa, Helvetica, sans-serif;
+	color: #444;
+	font-style: normal;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+section h2.section-heading{
+	font-family: Russo One, Helvetica, sans-serif;
+	color: #333;
+	font-size: 2.5em;
+}
+section h3.section-subheading{
+	font-family: Comfortaa, Helvetica, sans-serif;
+	color: #444;
+	font-size: 1.8em;
+	font-style: normal;
+	margin-bottom: 30px;
+}
+
+.profile-picture{
+	border-radius: 50%;
+	border: 5px solid #F3F3F3;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	max-width: 300px;
+}
+
+.reading-text{
+	font-size: 1.2em;
+	font-style: normal;
+	color: #666;
+	font-family: Open Sans, Helvetica, sans-serif;
+	font-weight: 400;
+}
+h4{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 1.4em;
+}
+h5{
+	font-family: Open Sans, Helvetica, sans-serif;
+	text-transform: none;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+.navbar-default.navbar-shrink{
+	background-color: #222;
+	border-bottom: 2px ridge #C3C3C3;
+}
+.navbar-default .navbar-brand{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #fed136;
+	text-transform: uppercase;
+}
+section{
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+#services{
+	background-color: #F3F3F3;
+}
+#portfolio{
+	background-color: #FFF;
+}
+section#contact .section-heading{
+	color: #f3f3f3;
+}
+section#contact .section-subheading{
+	color: #ccc;
+}
+
